@@ -1,0 +1,187 @@
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~
+$ git config --global user.name "MustafaSalama"
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~
+$ git config --global user.email "mustafa.salama97@hotmail.com"
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~
+$ cd Desktop
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop
+$ git clone https://github.com/MustafaSalama/Ind-Sprint0.git
+Cloning into 'Ind-Sprint0'...
+warning: You appear to have cloned an empty repository.
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop
+$ cd Ind-Sprint0
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git add .
+warning: LF will be replaced by CRLF in GettingStarted.txt.
+The file will have its original line endings in your working directory.
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git commit -m "First section"
+[master (root-commit) 3b7a85e] First section
+ 1 file changed, 35 insertions(+)
+ create mode 100644 GettingStarted.txt
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 2.28 KiB | 466.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/MustafaSalama/Ind-Sprint0.git
+ * [new branch]      master -> master
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git add .
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git commit -m "Second section"
+[master 61c94e2] Second section
+ 1 file changed, 100 insertions(+)
+ create mode 100644 GitBranching.txt
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 3.41 KiB | 581.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/MustafaSalama/Ind-Sprint0.git
+   3b7a85e..61c94e2  master -> master
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git add .
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git commit -m "Third Section"
+[master caff362] Third Section
+ 1 file changed, 55 insertions(+)
+ create mode 100644 DistributedGit.txt
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.81 KiB | 479.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/MustafaSalama/Ind-Sprint0.git
+   61c94e2..caff362  master -> master
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git rm --cached file1.txt
+fatal: pathspec 'file1.txt' did not match any files
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git rm --cached GettingStarted.txt
+rm 'GettingStarted.txt'
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git rm --cached GitBranching.txt
+rm 'GitBranching.txt'
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git commit -m "Remove GitBranching.txt"
+[master 6cb4240] Remove GitBranching.txt
+ 2 files changed, 135 deletions(-)
+ delete mode 100644 GettingStarted.txt
+ delete mode 100644 GitBranching.txt
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git push
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (1/1), done.
+Writing objects: 100% (2/2), 260 bytes | 86.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To https://github.com/MustafaSalama/Ind-Sprint0.git
+   caff362..6cb4240  master -> master
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git add .
+warning: LF will be replaced by CRLF in GettingStarted.txt.
+The file will have its original line endings in your working directory.
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git commit -m "First section"
+[master c698441] First section
+ 1 file changed, 35 insertions(+)
+ create mode 100644 GettingStarted.txt
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.35 KiB | 480.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/MustafaSalama/Ind-Sprint0.git
+   6cb4240..c698441  master -> master
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git add .
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git commit -m "Section 2"
+[master fbc33fa] Section 2
+ 1 file changed, 100 insertions(+)
+ create mode 100644 GitBranching.txt
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 3.44 KiB | 704.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/MustafaSalama/Ind-Sprint0.git
+   c698441..fbc33fa  master -> master
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$touch README.md
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$vim README.md
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git checkout -b ReadMe
+Switched to a new branch 'ReadMe'
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (ReadMe)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (ReadMe)
+$ git commit -m "This is a file that contain the project title, author name  and Acknowledgments"
+[ReadMe 473af1e] This is a file that contain the project title, author name  and Acknowledgments
+ 1 file changed, 4 insertions(+)
+ create mode 100644 README.md
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (ReadMe)
+$ git push
+fatal: The current branch ReadMe has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin ReadMe
+
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git merge ReadMe
+Updating fbc33fa..473af1e
+Fast-forward
+ README.md | 4 ++++
+ 1 file changed, 4 insertions(+)
+ create mode 100644 README.md
+
+
