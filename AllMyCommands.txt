@@ -185,3 +185,22 @@ Fast-forward
  create mode 100644 README.md
 
 
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git add .
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git commit -m "used Commands file"
+[master 217f5ee] used Commands file
+ 1 file changed, 187 insertions(+)
+ create mode 100644 AllMyCommands.txt
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (master)
+$ git push
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.95 KiB | 332.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/MustafaSalama/Ind-Sprint0.git
+   fbc33fa..217f5ee  master -> master
