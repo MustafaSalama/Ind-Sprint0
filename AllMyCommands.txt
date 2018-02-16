@@ -153,6 +153,18 @@ $ git checkout -b ReadMe
 Switched to a new branch 'ReadMe'
 
 Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (ReadMe)
+$ git push origin ReadMe
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 306 bytes | 306.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/MustafaSalama/Ind-Sprint0.git
+ * [new branch]      ReadMe -> ReadMe
+
+
+Mohamed@DESKTOP-SS3QL5A MINGW64 ~/Desktop/Ind-Sprint0 (ReadMe)
 $ git add .
 warning: LF will be replaced by CRLF in README.md.
 The file will have its original line endings in your working directory.
